@@ -4,7 +4,7 @@ from django.shortcuts import render
 def home_page(request):
     """Home page's view"""
     my_title = "bassie expert cleaning"
-    template_name = "website/main.html"
+    template_name = "main.html"
     context = {
         'title': my_title,
     }
@@ -13,7 +13,7 @@ def home_page(request):
 def about_page(request):
     """About page's view"""
     my_title = "About"
-    template_name = "website/about.html"
+    template_name = "about.html"
     context = {
         'title': my_title,
     }
@@ -22,7 +22,7 @@ def about_page(request):
 def gallery_page(request):
     """Gallery page's view"""
     my_title = "Gallery"
-    template_name = "website/gallery.html"
+    template_name = "gallery.html"
     context = {
         'title': my_title,
     }
