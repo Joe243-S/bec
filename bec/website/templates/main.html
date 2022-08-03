@@ -1,0 +1,15 @@
+{% extends 'index.html' %}
+
+{% load static %}
+
+{% block content %}
+    <main>
+        {% include 'carousel.html' %}
+
+        {% include 'about.html' %}
+
+        {% include 'services.html' %}
+
+        {% include 'contact.html' %}
+    </main>
+{% endblock%}
