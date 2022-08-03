@@ -10,15 +10,6 @@ def home_page(request):
     }
     return render(request, template_name, context)
 
-def about_page(request):
-    """About page's view"""
-    my_title = "About"
-    template_name = "about.html"
-    context = {
-        'title': my_title,
-    }
-    return render(request, template_name, context)
-
 def gallery_page(request):
     """Gallery page's view"""
     my_title = "Gallery"
